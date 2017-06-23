@@ -33,7 +33,8 @@ ModelImporter:
     4300002: Pulley
     4300004: Hook
     4300006: Cable
-    7400000: Take 001
+    7400000: SwingForward
+    7400002: SwingBack
     9500000: //RootNode
     13700000: Cable
   materials:
@@ -56,7 +57,99 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: SwingForward
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base
+        weight: 1
+      - path: Base/transform1
+        weight: 1
+      - path: Base/transform1/J_Cable01
+        weight: 1
+      - path: Base/transform1/J_Cable01/J_Cable02
+        weight: 1
+      - path: Base/transform1/J_Cable01/J_Cable02/J_Cable03
+        weight: 1
+      - path: Base/transform1/J_Cable01/J_Cable02/J_Cable03/Pulley
+        weight: 1
+      - path: Base/transform1/J_Cable01/J_Cable02/J_Cable03/Pulley/Hook
+        weight: 1
+      - path: Cable
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0.96
+    - serializedVersion: 16
+      name: SwingBack
+      takeName: Take 001
+      firstFrame: 100
+      lastFrame: 190
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base
+        weight: 1
+      - path: Base/transform1
+        weight: 1
+      - path: Base/transform1/J_Cable01
+        weight: 1
+      - path: Base/transform1/J_Cable01/J_Cable02
+        weight: 1
+      - path: Base/transform1/J_Cable01/J_Cable02/J_Cable03
+        weight: 1
+      - path: Base/transform1/J_Cable01/J_Cable02/J_Cable03/Pulley
+        weight: 1
+      - path: Base/transform1/J_Cable01/J_Cable02/J_Cable03/Pulley/Hook
+        weight: 1
+      - path: Cable
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0.96
     isReadable: 1
   meshes:
     lODScreenPercentages: []
@@ -65,7 +158,7 @@ ModelImporter:
     addColliders: 0
     importBlendShapes: 1
     swapUVChannels: 0
-    generateSecondaryUV: 1
+    generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
