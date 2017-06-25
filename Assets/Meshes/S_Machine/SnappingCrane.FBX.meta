@@ -1,0 +1,330 @@
+fileFormatVersion: 2
+guid: 1649f59a0d9737d4580f1ea06ec47d69
+timeCreated: 1431803565
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Arm lower
+    100002: Arm mid
+    100004: Arm upper
+    100006: ClawMid
+    100008: ClawUpper
+    100010: ClawUpper001
+    100012: Elbow lower
+    100014: Elbow upper
+    100016: IK Chain001
+    100018: PistonL
+    100020: PistonL001
+    100022: Point001
+    100024: Point002
+    100026: Point003
+    100028: Point004
+    100030: ShaftL
+    100032: ShaftL001
+    100034: //RootNode
+    400000: Arm lower
+    400002: Arm mid
+    400004: Arm upper
+    400006: ClawMid
+    400008: ClawUpper
+    400010: ClawUpper001
+    400012: Elbow lower
+    400014: Elbow upper
+    400016: IK Chain001
+    400018: PistonL
+    400020: PistonL001
+    400022: Point001
+    400024: Point002
+    400026: Point003
+    400028: Point004
+    400030: ShaftL
+    400032: ShaftL001
+    400034: //RootNode
+    2300000: Arm lower
+    2300002: Arm mid
+    2300004: Arm upper
+    2300006: ClawMid
+    2300008: ClawUpper
+    2300010: ClawUpper001
+    2300012: Elbow lower
+    2300014: Elbow upper
+    2300016: PistonL
+    2300018: PistonL001
+    2300020: ShaftL
+    2300022: ShaftL001
+    2300024: //RootNode
+    3300000: Arm lower
+    3300002: Arm mid
+    3300004: Arm upper
+    3300006: ClawMid
+    3300008: ClawUpper
+    3300010: ClawUpper001
+    3300012: Elbow lower
+    3300014: Elbow upper
+    3300016: PistonL
+    3300018: PistonL001
+    3300020: ShaftL
+    3300022: ShaftL001
+    3300024: //RootNode
+    4300000: Base
+    4300002: Arm lower
+    4300004: Elbow lower
+    4300006: Arm mid
+    4300008: Elbow upper
+    4300010: Arm upper
+    4300012: ClawMid
+    4300014: ClawUpper
+    4300016: ShaftL001
+    4300018: ClawUpper001
+    4300020: ShaftL
+    4300022: PistonL001
+    4300024: PistonL
+    7400000: Stopped
+    7400002: SwingA
+    7400004: SwingB
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Stopped
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arm lower
+        weight: 1
+      - path: Arm lower/Elbow lower
+        weight: 1
+      - path: Arm lower/Elbow lower/Arm mid
+        weight: 1
+      - path: Arm lower/Elbow lower/Arm mid/Elbow upper
+        weight: 1
+      - path: Arm lower/Elbow lower/Arm mid/Elbow upper/Arm upper
+        weight: 1
+      - path: Arm lower/Elbow lower/Arm mid/Elbow upper/Arm upper/ClawMid
+        weight: 1
+      - path: Arm lower/Elbow lower/Arm mid/Elbow upper/Arm upper/ClawMid/ClawUpper
+        weight: 1
+      - path: Arm lower/Elbow lower/Arm mid/Elbow upper/Arm upper/ClawMid/ClawUpper/Point003
+        weight: 1
+      - path: Arm lower/Elbow lower/Arm mid/Elbow upper/Arm upper/ClawMid/ClawUpper/Point003/ShaftL001
+        weight: 1
+      - path: Arm lower/Elbow lower/Arm mid/Elbow upper/Arm upper/ClawMid/ClawUpper001
+        weight: 1
+      - path: Arm lower/Elbow lower/Arm mid/Elbow upper/Arm upper/ClawMid/ClawUpper001/Point004
+        weight: 1
+      - path: Arm lower/Elbow lower/Arm mid/Elbow upper/Arm upper/ClawMid/ClawUpper001/Point004/ShaftL
+        weight: 1
+      - path: Arm lower/Elbow lower/Arm mid/Elbow upper/Arm upper/Point001
+        weight: 1
+      - path: Arm lower/Elbow lower/Arm mid/Elbow upper/Arm upper/Point001/PistonL001
+        weight: 1
+      - path: Arm lower/Elbow lower/Arm mid/Elbow upper/Arm upper/Point002
+        weight: 1
+      - path: Arm lower/Elbow lower/Arm mid/Elbow upper/Arm upper/Point002/PistonL
+        weight: 1
+      - path: Arm lower/IK Chain001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: SwingA
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 108
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arm lower
+        weight: 1
+      - path: Arm lower/Elbow lower
+        weight: 1
+      - path: Arm lower/Elbow lower/Arm mid
+        weight: 1
+      - path: Arm lower/Elbow lower/Arm mid/Elbow upper
+        weight: 1
+      - path: Arm lower/Elbow lower/Arm mid/Elbow upper/Arm upper
+        weight: 1
+      - path: Arm lower/Elbow lower/Arm mid/Elbow upper/Arm upper/ClawMid
+        weight: 1
+      - path: Arm lower/Elbow lower/Arm mid/Elbow upper/Arm upper/ClawMid/ClawUpper
+        weight: 1
+      - path: Arm lower/Elbow lower/Arm mid/Elbow upper/Arm upper/ClawMid/ClawUpper/Point003
+        weight: 1
+      - path: Arm lower/Elbow lower/Arm mid/Elbow upper/Arm upper/ClawMid/ClawUpper/Point003/ShaftL001
+        weight: 1
+      - path: Arm lower/Elbow lower/Arm mid/Elbow upper/Arm upper/ClawMid/ClawUpper001
+        weight: 1
+      - path: Arm lower/Elbow lower/Arm mid/Elbow upper/Arm upper/ClawMid/ClawUpper001/Point004
+        weight: 1
+      - path: Arm lower/Elbow lower/Arm mid/Elbow upper/Arm upper/ClawMid/ClawUpper001/Point004/ShaftL
+        weight: 1
+      - path: Arm lower/Elbow lower/Arm mid/Elbow upper/Arm upper/Point001
+        weight: 1
+      - path: Arm lower/Elbow lower/Arm mid/Elbow upper/Arm upper/Point001/PistonL001
+        weight: 1
+      - path: Arm lower/Elbow lower/Arm mid/Elbow upper/Arm upper/Point002
+        weight: 1
+      - path: Arm lower/Elbow lower/Arm mid/Elbow upper/Arm upper/Point002/PistonL
+        weight: 1
+      - path: Arm lower/IK Chain001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: SwingB
+      takeName: Take 001
+      firstFrame: 120
+      lastFrame: 190
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arm lower
+        weight: 1
+      - path: Arm lower/Elbow lower
+        weight: 1
+      - path: Arm lower/Elbow lower/Arm mid
+        weight: 1
+      - path: Arm lower/Elbow lower/Arm mid/Elbow upper
+        weight: 1
+      - path: Arm lower/Elbow lower/Arm mid/Elbow upper/Arm upper
+        weight: 1
+      - path: Arm lower/Elbow lower/Arm mid/Elbow upper/Arm upper/ClawMid
+        weight: 1
+      - path: Arm lower/Elbow lower/Arm mid/Elbow upper/Arm upper/ClawMid/ClawUpper
+        weight: 1
+      - path: Arm lower/Elbow lower/Arm mid/Elbow upper/Arm upper/ClawMid/ClawUpper/Point003
+        weight: 1
+      - path: Arm lower/Elbow lower/Arm mid/Elbow upper/Arm upper/ClawMid/ClawUpper/Point003/ShaftL001
+        weight: 1
+      - path: Arm lower/Elbow lower/Arm mid/Elbow upper/Arm upper/ClawMid/ClawUpper001
+        weight: 1
+      - path: Arm lower/Elbow lower/Arm mid/Elbow upper/Arm upper/ClawMid/ClawUpper001/Point004
+        weight: 1
+      - path: Arm lower/Elbow lower/Arm mid/Elbow upper/Arm upper/ClawMid/ClawUpper001/Point004/ShaftL
+        weight: 1
+      - path: Arm lower/Elbow lower/Arm mid/Elbow upper/Arm upper/Point001
+        weight: 1
+      - path: Arm lower/Elbow lower/Arm mid/Elbow upper/Arm upper/Point001/PistonL001
+        weight: 1
+      - path: Arm lower/Elbow lower/Arm mid/Elbow upper/Arm upper/Point002
+        weight: 1
+      - path: Arm lower/Elbow lower/Arm mid/Elbow upper/Arm upper/Point002/PistonL
+        weight: 1
+      - path: Arm lower/IK Chain001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
