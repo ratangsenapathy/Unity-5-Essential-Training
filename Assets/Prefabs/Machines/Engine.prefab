@@ -44,6 +44,9 @@ GameObject:
   m_Component:
   - component: {fileID: 465732}
   - component: {fileID: 9512680}
+  - component: {fileID: 114831787277187004}
+  - component: {fileID: 65697786540779846}
+  - component: {fileID: 215817074027735120}
   m_Layer: 0
   m_Name: Engine
   m_TagString: Untagged
@@ -131,8 +134,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 132950}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.89, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: 0.70710707, z: -0, w: 0.70710653}
+  m_LocalPosition: {x: 1.893, y: 0.25165462, z: 14.071}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 453598}
@@ -141,7 +144,7 @@ Transform:
   - {fileID: 494960}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90.00001, z: 0}
 --- !u!4 &494960
 Transform:
   m_ObjectHideFlags: 1
@@ -359,3 +362,59 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 132950}
   m_IsPrefabParent: 1
+--- !u!65 &65697786540779846
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 132950}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.64, y: 2.31, z: 1.53}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114831787277187004
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 132950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48b7dd38eec960941a62092d09c598cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Chug: 0
+--- !u!215 &215817074027735120
+ReflectionProbe:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 132950}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Type: 0
+  m_Mode: 0
+  m_RefreshMode: 0
+  m_TimeSlicingMode: 0
+  m_Resolution: 128
+  m_UpdateFrequency: 0
+  m_BoxSize: {x: 9.138355, y: 10, z: 8.904436}
+  m_BoxOffset: {x: 0.4308225, y: 0, z: 0.5477829}
+  m_NearClip: 0.3
+  m_FarClip: 1000
+  m_ShadowDistance: 100
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IntensityMultiplier: 1
+  m_BlendDistance: 1
+  m_HDR: 1
+  m_BoxProjection: 0
+  m_RenderDynamicObjects: 0
+  m_UseOcclusionCulling: 1
+  m_Importance: 1
+  m_CustomBakedTexture: {fileID: 0}
